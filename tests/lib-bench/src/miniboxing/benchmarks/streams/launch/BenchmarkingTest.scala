@@ -6,6 +6,7 @@ import tests._
 object BenchmarkingTest extends ScalameterBenchTest
     with GenericBenchTest
     with MiniboxedBenchTest
+    with SpecializedBenchTest
     with Serializable {
 
   // the number of independent samples to use

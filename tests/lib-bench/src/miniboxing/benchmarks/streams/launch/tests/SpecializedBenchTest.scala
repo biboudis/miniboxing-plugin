@@ -4,7 +4,7 @@ import miniboxing.benchmarks.streams.specialized._
 
 trait SpecializedBenchTest extends BaseTest {
 
-  def testspecialized() = {
+  def testSpecialized() = {
 
     var N: Int = testSize
     var v: Array[Long] = Array.tabulate(N)(i => i.toLong % 1000)
